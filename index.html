@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <i class="fa-brands fa-facebook" id="logo"></i>
+
+            <div class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search facebook">
+            </div>
+        </div>
+        <div class="nav-middle">
+            <ul class="nav-middle-icons">
+                <li><i class="fa-solid fa-house" style="color: #1196f5"></i></li>
+                <li><i class="fa-solid fa-user"></i></li>
+                <li><i class="fa-solid fa-tv"></i></li>
+                <li><i class="fa-solid fa-store"></i></li>
+                <li><i class="fa-solid fa-users"></i></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="nav-profile" onclick="settingsmenutoggle()" id="settingsmenu">
+                <img src="2...jpg">
+                <p style="color: #6c6b6b;">Yunesh</p>
+            </div>
+            <div class="nav-right-icons">
+                <div><i class="fa-solid fa-grip-vertical"></i></div>
+                <div><i class="fa-brands fa-facebook-messenger"></i></div>
+                <div><i class="fa-solid fa-bell"></i></div>
+                <div><i class="fa-solid fa-caret-down"></i></div>
+            </div>
+        </div>
+
+        <!-- settings menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="2...jpg">
+                    <div>
+                        <p style="color: #6c6b6b;">Yunesh dangol</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png">
+                    <div>
+                        <p style="color: #6c6b6b;">Give feedback</p>
+                        <a href="#">Helps us get new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">help & support<img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">Log Out<img src="arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!------------- Left container ------------>
+        <div class="left-container">
+            <div class="left-top">
+                <h2 style="color: #6c6b6b;">Home</h2>
+                <a href="#">Create</a>
+            </div>
+            <div class="imp-links">
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/800px-Momo_nepal.jpg" style="width: 33px; border-radius: 4px;">Not-so-Secret family Recipes</a>
+                <a href="#"><img src="clipboard.png">Events</a>
+                <a href="#"><img src="bookmark.png">Saved</a>
+                <a href="#"><img src="gaming.png">gaming</a>
+                <a href="#"><img src="heart.png">Furnishing</a>
+                <a href="#"><img src="chronometer.png">Memories</a>
+                <a href="#"><img src="question (1).png">Help & support</a>
+                <a href="#"><img src="settings.png">Settings & Privacy</a>
+                <a href="#"><img src="arrows.png">See more</a>
+            </div>
+            <div class="footer">
+                <p>Privacy-terms-Advertising-Ad Choices-Cookies<br>More Facebook 2024</p>
+            </div>
+        </div>
+
+        <!------------- Middle container ------------>
+        <div class="middle-container">
+            <div class="heading-stories">
+                <h4>Stories</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="story-container">
+                <div class="story-box">
+                    <img src="b.jpg">
+                    <div class="small-profile">
+                        <img src="2...jpg">
+                        <p>Unesh dangol</p>
+                    </div>
+                </div>
+                <div class="story-box">
+                    <img src="imresizer-1719637390161.jpg">
+                    <div class="small-profile">
+                        <img src="WhatsApp Image 2024-06-30 at 11.51.21_3010099f.jpg">
+                        <p>Milan Mgr</p>
+                    </div>
+                </div>
+                <div class="story-box">
+                    <img src="https://img.freepik.com/premium-photo/indian-landmark-gadi-sagar-artificial-lake-jaisalmer-rajasthan-india_268419-303.jpg?ga=GA1.1.175696641.1719560330&semt=sph">
+                    <div class="small-profile">
+                        <img src="WhatsApp Image 2024-06-30 at 11.51.21_7c5384fb.jpg">
+                        <p>Puskar dahal</p>
+                    </div>
+                </div>
+                <div class="story-box">
+                    <img src="imresizer-1719637144687.jpg">
+                    <div class="small-profile">
+                        <img src="s.jpg">
+                        <p>Shambhav thapa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="top-container">
+                    <img src="member-2.png">
+                    <input type="text" placeholder="what's on  your mind, Yunesh ?">
+                </div>
+                <div class="down-container">
+                    <div class="live-photo-option">
+                      <a href="#"><img src="video.png">Live video</a>
+                      <a href="#"><img src="gallery.png">Photo/Video</a>
+                      <a href="#"><img src="smile.png">Feelings/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="2...jpg">
+                    <div>
+                        <p style="color: #6c6b6b;">Yunesh dangol</p>
+                        <small>1 hrs <i class="fa-solid fa-earth-americas"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-photo">
+                    <img src="uneshdangol.jpg">
+                </div>
+
+                <div class="like-box">
+                    <div class="like-count">
+                        <div class="inner-count">
+                            <a href="#"><i class="fa-solid fa-thumbs-up" style="color: #1196f5;"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart" style="color: red;"></i></a>
+                            <p style="color: #6c6b6b;">1.6k Likes</p>
+                        </div>
+                        <div class="cmt">
+                            <p style="color: #6c6b6b;">20 Comments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="like-buttons">
+                    <div class="inner-likes">
+                        <a href="#"><i class="fa-solid fa-thumbs-up"></i>Likes</a>
+                        <a href="#"><i class="fa-solid fa-comment"></i>Comments</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Shares</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="WhatsApp Image 2024-06-30 at 11.51.21_3010099f.jpg">
+                    <div>
+                        <p style="color: #6c6b6b;">Milan mgr</p>
+                        <small>2 days ago <i class="fa-solid fa-earth-americas"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-photo">
+                    <p style="color: #6c6b6b; padding-bottom: 5px;">Learning Photoshop 2024 <br>#photoshop#keeponlearning#workhard</p>
+                    <img src="unesh.jpg">
+                </div>
+
+                <div class="like-box">
+                    <div class="like-count">
+                        <div class="inner-count">
+                            <a href="#"><i class="fa-solid fa-thumbs-up" style="color: #1196f5;"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart" style="color: red;"></i></a>
+                            <p style="color: #6c6b6b;">1.6k Likes</p>
+                        </div>
+                        <div class="cmt">
+                            <p style="color: #6c6b6b;">20 Comments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="like-buttons">
+                    <div class="inner-likes">
+                        <a href="#"><i class="fa-solid fa-thumbs-up"></i>Likes</a>
+                        <a href="#"><i class="fa-solid fa-comment"></i>Comments</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Shares</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="un.jpg">
+                    <div>
+                        <p style="color: #6c6b6b;">Ronish nakarmi</p>
+                        <small>1 hrs <i class="fa-solid fa-earth-americas"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-photo">
+                    <p style="color: #6c6b6b; padding-bottom: 5px;">Pretty morning</p>
+                    <img src="buddha-statue-spirituality-zen.jpg">
+                </div>
+
+                <div class="like-box">
+                    <div class="like-count">
+                        <div class="inner-count">
+                            <a href="#"><i class="fa-solid fa-thumbs-up" style="color: #1196f5;"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart" style="color: red;"></i></a>
+                            <p style="color: #6c6b6b;">1.6k Likes</p>
+                        </div>
+                        <div class="cmt">
+                            <p style="color: #6c6b6b;">20 Comments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="like-buttons">
+                    <div class="inner-likes">
+                        <a href="#"><i class="fa-solid fa-thumbs-up"></i>Likes</a>
+                        <a href="#"><i class="fa-solid fa-comment"></i>Comments</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Shares</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------- Right container ------------>
+        <div class="right-container">
+            <h3 style="color: #515151; font-weight: 600;">Suggested</h3>
+            <div class="right-suggested">
+                <img src="https://blog.daraz.com.np/wp-content/uploads/2023/05/Daraz-Logo.jpg">
+                <div class="members">
+                    <img src="s.jpg">
+                    <img src="WhatsApp Image 2024-06-30 at 11.51.21_3010099f.jpg">
+                    <img src="WhatsApp Image 2024-06-30 at 11.51.21_7c5384fb.jpg">
+                    <p>Milan and 9 others joined group</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2>Contacts</h2>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+            <div class="friends">
+                <div class="online">
+                    <img src="un.jpg">
+                </div>
+                <p style="color: #6c6b6b;">Ronish Nakarmi</p>
+            </div>
+            <div class="friends">
+                <div class="online">
+                    <img src="WhatsApp Image 2024-06-30 at 11.51.21_3010099f.jpg" style="border: 3px solid #1196f5;">
+                </div>
+                <p style="color: #6c6b6b;">Milan Mgr</p>
+            </div>
+            <div class="friends">
+                <div class="online">
+                    <img src="s.jpg" style="border: 3px solid #1196f5;">
+                </div>
+                <p style="color: #6c6b6b;">Shambhav Thapa</p>
+            </div>
+            <div class="friends">
+                <div class="online">
+                    <img src="un.jpg">
+                </div>
+                <p style="color: #6c6b6b;">Urgen lama Yonjan</p>
+            </div>
+            <div class="friends">
+                <div class="online">
+                    <img src="WhatsApp Image 2024-06-30 at 11.51.21_7c5384fb.jpg" style="border: 3px solid #1196f5;">
+                </div>
+                <p style="color: #6c6b6b;">Puskar dahal</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
